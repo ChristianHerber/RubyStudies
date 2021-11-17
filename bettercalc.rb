@@ -17,19 +17,19 @@ op = gets().chomp()
 # function sum
 def sum(num01, num02)
     result = num01 + num02
-    return(num01.to_s + " + " + num02.to_s + " = " + result.to_s)
+    return("#{num01.to_s} + #{num02.to_s} = #{result.to_s}")
 end
 
 #function subtration
 def subtration(num01, num02)
     result = num01 - num02
-    return(num01.to_s + " - " + num02.to_s + " = " + result.to_s)
+    return("#{num01.to_s} - #{num02.to_s} = #{result.to_s}")
 end
 
 # function multiplication
 def multiplication(num01, num02)
     result = num01 * num02
-    return(num01.to_s + " * " + num02.to_s + " = " + result.to_s)
+    return("#{num01.to_s} * #{num02.to_s} = #{result.to_s}")
 end
 
 # function division 
@@ -40,7 +40,7 @@ def division(num01, num02)
     end
 
     result = num01 / num02
-    return(num01.to_s + " / " + num02.to_s + " = " + result.to_s)
+    return("#{num01.to_s} / #{num02.to_s} = #{result.to_s}")
 end
 
 # function calculator
