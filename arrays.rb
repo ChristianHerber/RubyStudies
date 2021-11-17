@@ -1,6 +1,9 @@
 # declaring a array
 names = Array["Santos", "Herber", "Christian"]
 
+# add a new array element
+names.push("Almeida")
+
 # show array elements 
 puts(names)
 
