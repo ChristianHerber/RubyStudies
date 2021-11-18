@@ -5,7 +5,7 @@ age = gets().chomp().to_i
 def isAdult(age)
     if (age >= 18)
         return("You are an Adult")
-    elsif (age >= 12 and age < 18 )
+    elsif (age >= 12 && age < 18 )
         return("You are not an Adult")
     else
         return("You are a Child")
