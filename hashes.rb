@@ -1,7 +1,7 @@
 # declaring the hash(object!?)
 states = {
     "Acre" => "AC",
-    "Bahia" => "BA",
+    :Bahia => "BA", # using symbol
     "Mato Grosso" => "MT",
     "Santa Catarina" => "SC",
     "Rio Grande do Sul" => "RS",
@@ -11,7 +11,7 @@ states = {
 puts(states)
 
 # show a specific value 
-puts(states["Bahia"])
+puts(states[:Bahia])
 
 # show hash length
 puts(states.length())
