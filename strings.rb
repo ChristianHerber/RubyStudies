@@ -29,3 +29,10 @@ puts(phrase[8,4])
 
 # return the position of the character passed like as argument
 puts(phrase.index("y"))
+
+# return an array with each character
+p(phrase.chars())
+
+# return an aray with each word
+# split default is " " (blank space)
+p(phrase.split())
