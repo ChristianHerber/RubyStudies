@@ -3,13 +3,19 @@ class Book
     # class attributes
     attr_accessor :title, :author, :pages
 
+    # initialize method (constructor)
+    # this method is called on object instantiation
+    def initialize(title, author, pages)
+        @title = title
+        @author = author
+        @pages = pages
+    end
+
 end
 
 # create a instace of Book class
-book1 = Book.new()
-book1.title = "Castle Batles" # set book title
-book1.author = "Domingos Pellegrin Jr" # set book author
-book1.pages = 224 # set book pages
+# and set the attributes values
+book1 = Book.new("Castle Batles", "Domingos Pellegrini Jr", 224)
 
 # show book attributes
 puts "
