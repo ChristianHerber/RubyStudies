@@ -8,7 +8,10 @@ def palindrome?(word)
     if (word === wordReverse)
         return("#{word}, is a palindrome.")
     else
-        return("#{word}, is NOT a palindrome.")
+        return("
+            #{word}, is NOT a palindrome.
+            #{wordReverse}
+        ")
     end
 end
 
